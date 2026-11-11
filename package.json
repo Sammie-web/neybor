@@ -1,0 +1,12 @@
+{
+  "name": "neybor",
+  "private": true,
+  "scripts": {
+    "mobile": "npm --prefix mobile run start",
+    "admin": "npm --prefix admin run dev",
+    "admin:build": "npm --prefix admin run build",
+    "mobile:typecheck": "npm --prefix mobile run typecheck",
+    "prelaunch": "npm --prefix prelaunch run dev",
+    "prelaunch:build": "npm --prefix prelaunch run build"
+  }
+}
